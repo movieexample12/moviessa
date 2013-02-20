@@ -1,0 +1,78 @@
+<resources>
+   
+    <string name="label">sync movies</string>
+    <string name="ui_activity_title">Please log in</string>
+    <!-- AuthenticatorActivity -->
+    <string name="ui_activity_authenticating">Authenticating</string>
+    <string
+        name="login_activity_username_label">Username</string>
+    <!-- Label above password EditText -->
+    <string
+        name="login_activity_password_label">Password</string>
+    <!-- Button to sign in after entering username and password -->
+    <string
+        name="login_activity_ok_button">Sign in</string>
+
+    <!-- Message shown in dialog if the username or password is invalid. -->
+    <string
+        name="login_activity_loginfail_text_both">The username or password isn\'t valid. Please try again. </string>
+    <!-- Message shown in dialog if the password is invalid -->
+    <string
+        name="login_activity_loginfail_text_pwonly">You entered the wrong password or your account has changed.
+        Please re-enter your password.</string>
+    <!-- Message shown in dialog to prompt the user for their password -->
+    <string
+        name="login_activity_loginfail_text_pwmissing">Type the password for this account.</string>
+    <!--
+        Message shown if the provided account doesn't support the current
+        activity.
+    -->
+    <string
+        name="login_activity_newaccount_text">Sign in to your account.(Movies) </string>
+
+    <!-- Button that takes the user to the "sign in" screen -->
+    <string
+        name="sign_in_button_label">Sign in</string>
+    <!-- Button for going to the previous screen or step -->
+    <string
+        name="back_button_label">Back</string>
+    <!-- Button to cancel the current operation -->
+    <string
+        name="cancel_button_label">Cancel</string>
+    <string
+        name="profile_action">Sample profile</string>
+    <string
+        name="view_profile">View Profile</string>
+
+    <string name="header_account_type">SampleSync contact</string>
+
+    <string name="label_name">Name</string>
+    <string name="label_phone_home">Home Phone</string>
+    <string name="label_phone_mobile">Mobile Phone</string>
+    <string name="label_phone_work">Work Phone</string>
+    <string name="label_email">Email</string>
+    <string
+        name="menu_done">Done</string>
+    <string
+        name="menu_cancel">Cancel</string>
+
+    <!-- Strings for contacts.xml -->
+    <skip />
+
+    <!-- The label of the button to add contact to this contact provider  -->
+    <string name="invite_action_label">Add to Sample SyncAdaper</string>
+
+    <string name="app_name">MovieSAExample</string>
+    <string name="auth_label">MovieSAExample</string>
+    <string name="api_key">8873188fc2d1d2ba7ba3bd5793453128</string>
+    <string name="approved_message">Please login, refresh the page and click approved</string>
+    <string name="login">login</string>
+    <string name="api_key_text">Enter your api</string>
+    <string name="username">lenam</string>
+    <string name="password">p1a1s1w1</string>
+    
+    <string name="title">Title</string>
+    <string name="release_date">Release Date</string>
+    <string name="title_vote_average">Vote average</string>
+    <string name="duration">Duration</string>
+</resources>

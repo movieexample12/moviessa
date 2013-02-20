@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_gravity="clip_vertical"
+	android:minHeight="54dip"
+	android:paddingTop="4dip"
+	android:paddingLeft="2dip"
+	android:paddingRight="2dip"
+	android:background="#fff">
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="1">
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:id="@+id/text"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:gravity="left"
+			    android:text="Api key:" />
+
+			<EditText
+			    android:id="@+id/api"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:minWidth="250dip"
+			    android:scrollHorizontally="true"
+			    android:singleLine="true"
+			    android:text="@string/api_key" />
+
+		</LinearLayout>
+	</ScrollView>
+	<FrameLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#fff">
+	<Button
+		android:id="@+id/create_session_btn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right"
+		android:minWidth="100dip"
+		android:text="Create new session" />
+	</FrameLayout>
+    
+</LinearLayout>
